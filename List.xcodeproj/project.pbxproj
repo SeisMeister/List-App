@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB1AA63A2BC8421A00679ED9 /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1AA6392BC8421A00679ED9 /* ToDoCell.swift */; };
+		DB3BD9D72BC6E3420097A5CF /* ToDoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BD9D62BC6E3420097A5CF /* ToDoDetailTableViewController.swift */; };
 		DBF10DC52BC597D30042FA64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF10DC42BC597D30042FA64 /* AppDelegate.swift */; };
 		DBF10DC72BC597D30042FA64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF10DC62BC597D30042FA64 /* SceneDelegate.swift */; };
-		DBF10DC92BC597D30042FA64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF10DC82BC597D30042FA64 /* ViewController.swift */; };
 		DBF10DCC2BC597D30042FA64 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DBF10DCB2BC597D30042FA64 /* Base */; };
 		DBF10DCE2BC597D40042FA64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF10DCD2BC597D40042FA64 /* Assets.xcassets */; };
 		DBF10DD12BC597D40042FA64 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DBF10DD02BC597D40042FA64 /* Base */; };
 		DBF10DDC2BC597D40042FA64 /* ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF10DDB2BC597D40042FA64 /* ListTests.swift */; };
 		DBF10DE62BC597D40042FA64 /* ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF10DE52BC597D40042FA64 /* ListUITests.swift */; };
 		DBF10DE82BC597D40042FA64 /* ListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF10DE72BC597D40042FA64 /* ListUITestsLaunchTests.swift */; };
+		DBF10DF52BC59C7F0042FA64 /* To Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF10DF42BC59C7F0042FA64 /* To Do.swift */; };
+		DBF10DF72BC59DB80042FA64 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF10DF62BC59DB80042FA64 /* ToDoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB1AA6392BC8421A00679ED9 /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
+		DB3BD9D62BC6E3420097A5CF /* ToDoDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailTableViewController.swift; sourceTree = "<group>"; };
 		DBF10DC12BC597D30042FA64 /* List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = List.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF10DC42BC597D30042FA64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBF10DC62BC597D30042FA64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DBF10DC82BC597D30042FA64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBF10DCB2BC597D30042FA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBF10DCD2BC597D40042FA64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBF10DD02BC597D40042FA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		DBF10DE12BC597D40042FA64 /* ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF10DE52BC597D40042FA64 /* ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUITests.swift; sourceTree = "<group>"; };
 		DBF10DE72BC597D40042FA64 /* ListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBF10DF42BC59C7F0042FA64 /* To Do.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "To Do.swift"; sourceTree = "<group>"; };
+		DBF10DF62BC59DB80042FA64 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,10 @@
 			children = (
 				DBF10DC42BC597D30042FA64 /* AppDelegate.swift */,
 				DBF10DC62BC597D30042FA64 /* SceneDelegate.swift */,
-				DBF10DC82BC597D30042FA64 /* ViewController.swift */,
+				DB1AA6392BC8421A00679ED9 /* ToDoCell.swift */,
+				DBF10DF42BC59C7F0042FA64 /* To Do.swift */,
+				DBF10DF62BC59DB80042FA64 /* ToDoTableViewController.swift */,
+				DB3BD9D62BC6E3420097A5CF /* ToDoDetailTableViewController.swift */,
 				DBF10DCA2BC597D30042FA64 /* Main.storyboard */,
 				DBF10DCD2BC597D40042FA64 /* Assets.xcassets */,
 				DBF10DCF2BC597D40042FA64 /* LaunchScreen.storyboard */,
@@ -258,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBF10DC92BC597D30042FA64 /* ViewController.swift in Sources */,
+				DBF10DF52BC59C7F0042FA64 /* To Do.swift in Sources */,
+				DB1AA63A2BC8421A00679ED9 /* ToDoCell.swift in Sources */,
+				DB3BD9D72BC6E3420097A5CF /* ToDoDetailTableViewController.swift in Sources */,
+				DBF10DF72BC59DB80042FA64 /* ToDoTableViewController.swift in Sources */,
 				DBF10DC52BC597D30042FA64 /* AppDelegate.swift in Sources */,
 				DBF10DC72BC597D30042FA64 /* SceneDelegate.swift in Sources */,
 			);
